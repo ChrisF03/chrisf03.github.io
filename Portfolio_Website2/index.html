@@ -1,0 +1,580 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dimension by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon solid fa-code"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Christian Fernandez</h1>
+								<h3>Data Analysis · Data Science</h3>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#AboutMe"><b>Intro</b></a></li>
+								<li><a href="#Python"><b>Python</b></a></li>
+								<li><a href="#SQL"><b>SQL</b></a></li>
+								<li><a href="#Tableau"><b>Tableau</b></a></li>
+								<li><a href="#Excel"><b>Excel</b></a></li>
+								<!-- <li><a href="#Contact"><b>Contact</b></a></li> -->
+								<!-- <li><a href="#elements">Elements</a></li> -->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="AboutMe">
+								<h2 class="major">About Me</h2>
+								<!-- <span class="image main"><img src="images/pic01.jpg" alt="" /></span> -->
+								<img align="right" height="270px" alt="GIF" src="images/me.png" />
+								<p>Hello ! My name is Christian Fernández and I am a recent graduate from Lehman College at CUNY with a bachelors in Economics.
+								I am particularly passionate about data analytics and machine learning and am largely self-taught in <b>Python, SQL, Tableau, and Excel.</b></p>
+								<p>I would describe myself as logical and inquisitive and working with data is something that I believe requires both, making it the perfect career choice for me. I find it to be very satisfying whenever I'm able to derive interesting insights from a messy dataset or when I build a machine learning model and get a great prediction score.</p> 
+
+								<p>Throughout college, I learned a wide range of economic theories as well as accompanying math such as statistics, calculus, and econometrics. I have also taken some online courses in Python and Machine Learning but what has really helped me develop confidence in my skills is building the projects that are highlighted in this site. </p>
+
+								<p>I currently reside in New York and speak English and Spanish. In my free time I enjoy weight lifting, baseball, documentaries, and philosophy.</p>
+							<hr class="solid">
+							<h2 class="major">Resumé</h2>
+								<p>Click the button below for a copy of my resume summing all of this up with what I feel are my strongest projects (plus a little more) into a neat one page document for your records.</p>
+								<ul class="actions special">
+									<li><a href="https://drive.google.com/drive/folders/1dnbo82ijlmO7SyO84Bh4P30b4HdK9-Mv?usp=sharing" class="button">Free Resume</a></li>
+								</ul>
+							<hr class="solid">
+							<h2 class="major">Contact</h2>
+							<form method="post" action="mailto:fernandez.christian13@gmail.com">
+								<div class="fields">
+									<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+									<!-- <li><a href="mailto:fernandez.christian13@gmail.com" class="icon brands fa-google"><span class="label">Google</span></a></li>
+									<li><a href="https://github.com/ChrisF03" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.linkedin.com/in/christian-fernandez-412258191/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li> -->
+								</ul>
+							</article>
+
+						<!-- Python -->
+							<article id="Python">
+								<h2 class="major">Python</h2>
+								<span class="image main"><img src="images/python.png" alt="" /></span>
+								<!-- <p>In this section I highlight the Python projects I have built, including predictive modelling, data engineering, and NLP. </p>
+							<hr class="solid">	 -->
+							<h3>Customer Churn Prediction Model</h3>
+							<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								<p>Analyzed customer churn data for a telephone and internet service company containing 20 different features.</p> 
+								<p>Built and tuned 5 different classification models using the sklearn library to predict likelihood of customer churn as well as which factors were causing it with an accuracy of 80%.</p>
+								<p><b>Insights:</b> 
+									<ul class="default">
+										<li>Customer tenure and the companies fiber optic internet service were the biggest reasons for churn.</li>
+										<li>New customers are more likely to churn.</li>
+										<li>DSL internet service led to higher customer satisfaction.</li>
+									</ul> 
+								</p>
+								<p>GitHub Repo <a href="https://github.com/ChrisF03/Portfolio-Projects/blob/main/telco%20churn%20nb/Telco_Churn.ipynb"><b>HERE</b></a></p>
+							<hr class="solid">
+							<h3>Medical Insurance Cost Estimator</h3>
+							<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								<p>Aimed to predict medical insurance costs in the United States based on 6 factors using a simulated dataset based on U.S Census Data.</p> 
+								<p>Built and tuned 5 different regression models with grid searches using the Sci-Kit Learn library and subsequently built an app using Streamlit for getting a cost estimation. Predicted costs with an accuracy of 90%. </p>
+								<p><b>Insights:</b> 
+									<ul class="default">
+										<li>Smoker status and age were the biggest factors in determining insurance costs.</li>
+										<li>Americans in the southeast region of the country pay more for healthcare.</li>
+										<li>Men pay slightly more than women for healthcare.</li>
+									</ul> 
+								<p>GitHub Repo <a href="https://github.com/ChrisF03/Portfolio-Projects/tree/main/app_3_insurance_regression"><b>HERE</b></a></p>
+							<hr class="solid">
+							<h3>Movie Recommender System</h3>
+							<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								<p>Built a movie recommendation system using a dataset containing 5000 films utilizing NLP techniques such as stemming and tokenization as well as cosine similarity to generate 5 recommendations based on a selected film.</p>
+								<p>Leveraged final recommendation function by deploying a web application using the TMDb API that displays details such as the movie poster, overview, cast and crew, etc.</p>
+								<p>GitHub Repo <a href="https://github.com/ChrisF03/Portfolio-Projects/tree/main/app_4_Movie_RecSys"><b>HERE</b></a></p> 
+							<hr class="solid">
+							<h3>Heart Disease Risk Detection</h3>
+							<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								<p>Aimed to predict likelihood of heart disease in patients based on a number of cardiovascular metrics.</p>
+								<p>Built and tuned 4 different classification models using the sklearn library to achieve prediction accuracy of 88%.</p>
+								<p>GitHub Repo <a href="https://github.com/ChrisF03/Portfolio-Projects/blob/main/heart%20disease%20risk%20nb/HeartAttackClassification.ipynb"><b>HERE</b></a></p>	
+							<hr class="solid">	
+							<h3>Wine Classifier</h3>
+							<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								<p>Predicted Vinho Verde brand wine quality and type (red or white) based on multiple physicochemical factors.</p> 
+								<p>Built and tuned 4 classification models using the Sci-Kit Learn library for each target variable and created an app using Streamlit for potential customers. Predicted wine quality with an accuracy of 80% and wine type with an accuracy of 99.5%.</p>
+								<p>GitHub Repo <a href="https://github.com/ChrisF03/Portfolio-Projects/tree/main/app_2_wine_classifier"><b>HERE</b></a></p>
+							<hr class="solid">	
+							<h3>MLB Web Scraper</h3>
+							<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								<p>Scraped and analyzed statistical data for every Major League Baseball player in each season since 1998 from the baseball-reference website.</p> 
+								<p>Created an interactive app with Streamlit where users can select team and year and receive a downloadable dataframe and accompanying exploratory analysis.</p>
+								<p>GitHub Repo <a href="https://github.com/ChrisF03/Portfolio-Projects/tree/main/app_1_MLB_eda"><b>HERE</b></a></p>		
+							</article>
+
+						<!-- SQL -->
+							<article id="SQL">
+								<h2 class="major">SQL</h2>
+								<span class="image main"><img src="images/sql.jpg" alt="" /></span>
+								<!-- <p>This section contains my SQL projects</p>
+							<hr class="solid">	 -->
+							<h3>Media Store Invoice Analysis</h3>
+							<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								<p>Curated a list of SQL queries analyzing invoices for a fictional media store. The database contained multiple tables containing information on customers, employees and products. </p> 
+								<p>For this project, I mainly focused on aggregate functions and joins to conduct my analysis.</p>
+								<p><b>Some questions answered:</b>
+									<ul class="default">
+										<li>Total sales made by each sales agent.</li>
+										<li>Invoices associated with each sales agent.</li>
+										<li>Total sales and invoices for year of choice.</li>
+									</ul> 
+								</p>
+								<p>GitHub Link <a href="https://github.com/ChrisF03/Portfolio-Projects/blob/main/MediaStoreAnalysis.sql"><b>HERE</b></a></p>
+							<hr class="solid">
+							<h3>COVID-19 SQL Analysis</h3>
+							<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								<p>Created a list of SQL queries analyzing COVID deaths and vaccinations by country and by continent. using aggregate functions. This database contained two tables one for deaths and one for vaccinations.</p> 
+								<p>Utilized aggregate functions, joins, window functions, CTE's, Temp Tables, and Views.</p>
+								<p><b>Some questions answered:</b>
+									<ul class="default">
+										<li>Total Cases vs Total Deaths Worlwide</li>
+										<li>Infection Rate Relative to Country Population.</li>
+										<li>Rolling daily total of vaccinations worldwide.</li>
+									</ul> 
+								</p>
+								<p>GitHub Link <a href="https://github.com/ChrisF03/Portfolio-Projects/blob/main/COVID.sql"><b>HERE</b></a></p>
+							<hr class="solid">	
+							<h3>MoMA SQL Analysis</h3>
+							<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+								<p>Organized a list of SQL queries analyzing the collection of Museum of Modern Arts in New York City using aggregate and filter functions.</p> 
+								<p>This data contained two tables, one containing information on artworks including medium and classification and another containing information on artists such as nationality and number of works.</p>
+								<p><b>Some questions answered:</b>
+									<ul class="default">
+										<li>Total number of unique exhibits per department.</li>
+										<li>Most represented artists.</li>
+										<li>Most exhibited art mediums.</li>
+									</ul> 
+								</p>
+								<p>GitHub Link <a href="https://github.com/ChrisF03/Portfolio-Projects/blob/main/MoMA%20SQL%20analysis.sql"><b>HERE</b></a></p>
+							</article>
+
+						<!-- Tableau -->
+						<article id="Tableau">
+							<h2 class="major">Tableau</h2>
+							<span class="image main"><img src="images/tableau.jpg" alt="" /></span>
+							<!-- <p>This section contains my Tableau Dashboards</p>
+						<hr class="solid">	 -->
+						<h3>Advertisement Sales Dashboard</h3>
+						<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+							<p>Created and deployed a dashboard tracking sales data for a fictional marketing consultancy over a one year span.</p> 
+							<p>Included total revenue, monthly revenue, best-performing consultants and teams as well as best selling ad-channels etc, all filterable by month and/or sales team.</p>
+							<!-- <p>Some questions answered: 
+								<ul class="default">
+									<li></li>
+									<li></li>
+									<li></li>
+								</ul> 
+							</p> -->
+							<p>Dashboard Link <a href="https://public.tableau.com/app/profile/chrisf03/viz/SalesDashboard_16781688272840/SalesDashboard"><b>HERE</b></a></p>
+						<hr class="solid">	
+						<h3>COVID-19 Vaccination Tracker</h3>
+						<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+							<p>Created a dashboard tracking partial (1) and full (2) vaccinations around the world as of 1/26/2023.</p> 
+							<p>Added filters for continent, country, and date range, utilized world map to visualize vaccinations per hundred for every country and a logarithmic scale to visualize GDP per Capita and Vaccinations per Hundred.</p>
+							<!-- <p>Some questions answered: 
+								<ul class="default">
+									<li>Total number of unique exhibits per department.</li>
+									<li>Most represented artists.</li>
+									<li>Most exhibited art mediums.</li>
+								</ul> 
+							</p> -->
+							<p>Dashboard Link <a href="https://public.tableau.com/app/profile/chrisf03/viz/COVID-19VaccinationTracker_16748117195790/COVIDVaccinationTracker"><b>HERE</b></a></p>
+						<hr class="solid">	
+						<h3>A.I Index Dashboard</h3>
+						<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+							<p>Deployed a dashboard measuring the rapid rate of A.I advancement including research and development, investment, and A.I policy.</p> 
+							<p>Utilized bar charts to show total A.I investments by country and focus area of investments.Showed patent filings, total A.I publications, including publications by field.</p>
+							<p>Visualized corporate adoption of A.I and a section on A.I policy which includes mentions in legislative proceedings and A.I related bills actually passed, broken down by country.</p>
+							<!-- <p>Some questions answered: 
+									<ul class="default">
+										<li>Total number of unique exhibits per department.</li>
+										<li>Most represented artists.</li>
+										<li>Most exhibited art mediums.</li>
+									</ul> 
+								</p> -->
+							<p>Dashboard Link <a href="https://public.tableau.com/app/profile/chrisf03/viz/A_IIndexDashboard/A_IIndexDashboard"><b>HERE</b></a></p>
+						</article>
+
+						<!-- Excel -->
+						<article id="Excel">
+							<h2 class="major">Excel</h2>
+							<span class="image main"><img src="images/excel.png" alt="" /></span>
+							<!-- <p>This section contains my Excel projects</p>
+						<hr class="solid">	 -->
+						<h3>U.S Supply Chain Analysis</h3>
+						<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+							<p>Used MS Excel to analyze supply chain shipments and commodity pricing for HIV/AIDS medication from the U.S from 2006-2015.</p> 
+							<p>Leveraged Pivot Tables to gain insight into the dataset and put together visualizations and a slicer for a dashboard.</p>
+							<p><b>Some metrics shown:</b>
+									<ul class="default">
+										<li>Total Shipments made.</li>
+										<li>Top vendors and receiving countries.</li>
+										<li>Most common fullfilment and shipment methods.</li>
+									</ul> 
+								</p>
+							<p>GitHub Link <a href="https://github.com/ChrisF03/Portfolio-Projects/blob/main/Supply_Chain_Analysis.xlsx"><b>HERE</b></a></p>
+						<hr class="solid">
+						<h3>Bike Buyer Analysis</h3>
+						<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
+							<p>Used Excel to analyze data on a bike shops customers. The dataset includes 11 features including age, occupation, income, and marital status, among the rest.
+							</p>
+							<p>Removed duplicate values and utilized nested IF statements to group the Age column into a seperate Age Bracket column.
+							Created Pivot tables to aid in data visualization. Leveraged pivot tables into a dashboard and added slicers to filter visualizations.</p>
+							<p><b>Some metrics shown:</b>
+								<ul class="default">
+									<li>Average income per customer, broken down by gender.</li>
+									<li>Customer age brackets.</li>
+									<li>Customer commute distance to work and whether or not they purchased a bike.</li>
+								</ul> 
+							</p>
+							<p>GitHub Link <a href="https://github.com/ChrisF03/Portfolio-Projects/blob/main/Bike%20Buyer%20Dataset.xlsx"><b>HERE</b></a></p>
+
+						<!-- Contact -->
+						<article id="Contact">
+							<h2 class="major">Contact</h2>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<!-- <article id="element">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article> -->
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+							<li><a href="mailto:fernandez.christian13@gmail.com" class="icon brands fa-google"><span class="label">Google</span></a></li>
+							<li><a href="https://github.com/ChrisF03" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/christian-fernandez-412258191/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						</ul>
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
